@@ -15,19 +15,19 @@ Newest data and changes allways on pygithub
 
 #### Data already collected:
 
-*960 users - get their pull requests.csv*
+###### 960 users - get their pull requests.csv
 
 *It holds all PULL REQUESTS, in a format: `repository name`, `count of skill (language)`, `skill (language) name`, `user`*
 
-*top-users-final.csv*
+###### top-users-final.csv
 
 *It holds most active GitHub users (by paulmillr conditions) and their 3 most often used languages*
 
-*users-repos-skills.csv*
+###### users-repos-skills.csv
 
 *It holds also their repos*
 
-*logins-only.csv*
+######logins-only.csv
 
 *It holds only their logins*
 
