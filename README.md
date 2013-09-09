@@ -19,6 +19,18 @@ Newest data and changes allways on pygithub
 
 *It holds all PULL REQUESTS, in a format: `repository name`, `count of skill (language)`, `skill (language) name`, `user`*
 
+*top-users-final.csv*
+
+*It holds most active GitHub users (by paulmillr conditions) and their 3 most often used languages*
+
+*users-repos-skills.csv*
+
+*It holds also their repos*
+
+*logins-only.csv*
+
+*It holds only their logins*
+
 ##### Google bigquery
 
 *It works by querying Google GitHub timeline for fields:* `repository_name`, `count(payload_pull_request_head_repo_language)`, `payload_pull_request_head_repo_language`, `payload_pull_request_head_user_login`
