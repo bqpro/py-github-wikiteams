@@ -59,3 +59,17 @@ example:
 `fabpot, linux_kernel3`
 
 `fabpot, swap_unix`
+
+#### Learning function
+
+This is the data we input to the learning machine during LEARNING PHASE:
+
+`{user: {Skill, experience, repo}}`
+
+which means a set of users and their contribution to repositories characterized by language and intensivity (how many times contributed)
+
+and later for standard input we enter hypothetical user:
+
+`{user: {Skill, experience}}`
+
+we want on output a repository which he will probably would enjoy (repo already existing in dataset from learning phase)
