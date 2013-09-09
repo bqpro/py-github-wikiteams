@@ -1,0 +1,4 @@
+select count(payload_pull_request_head_repo_language), payload_pull_request_head_repo_language, payload_pull_request_head_user_login
+from [githubarchive:github.timeline]
+where repository_name = 'REPO___NAME' and payload_pull_request_head_user_login = 'USER__NAME'
+group by payload_pull_request_head_user_login, payload_pull_request_head_repo_language
