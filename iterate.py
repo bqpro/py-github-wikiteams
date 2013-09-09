@@ -6,7 +6,8 @@ def getrepos(username):
     user_repos = gh.get_user(username).get_repos()
     for user_repo in user_repos:
         print user_repo.name
-        getcommits(username, user_repo.name, user_repo)
+        outputter.writerow([username,user_repo.name])
+        #getcommits(username, user_repo.name, user_repo)
         #outputter.writerow([username,(str(user_repo).strip('<Repo (')).strip(')>')])
 
 def getcommits(username, repo_name, user_repo):
@@ -33,5 +34,5 @@ with open('top-users-final.csv', 'rb') as source_csvfile:
             print row[0]
             getrepos(str(row[0]))
 
-outputter.close()
+#outputter.close()
 csvfile.close()
