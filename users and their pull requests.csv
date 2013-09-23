@@ -1,4 +1,4 @@
-repository_name,f0_,payload_pull_request_head_repo_language,payload_pull_request_head_user_login
+repository_name,skill_count,skill,user
 jquery-pjax,60,JavaScript,defunkt
 npm,2,JavaScript,visionmedia
 symfony,347,PHP,fabpot
